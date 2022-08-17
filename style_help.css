@@ -1,0 +1,296 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    height: 3000px;
+}
+
+
+h2 {
+    color: white;
+    margin-top: 400px;
+}
+
+#navbar {
+    overflow: hidden;
+    top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+
+.nav {
+    background-color: #272D33;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Oswald', sans-serif;
+     background-color: #272D33;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none; 
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+#brand  {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.2ch;
+    background-color: #272D33;
+}
+
+div {
+    background-color: #272D33;
+}
+
+
+#opener {
+    margin-top: 100px;
+    margin-left: 470px;
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.style {
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+#style {
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.tipHeading {
+    margin-top:600px;
+    margin-left: 230px;
+}
+
+.view {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.view.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#break {
+   margin-top: 600px; 
+
+}
+
+#openerText {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    margin-left:480px;
+    margin-top: 20px;
+    animation: fadeIn2 3s;
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.tipSection {
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+
+.tip1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+}
+.tipHeading2 {
+    margin-left: 900px;
+    margin-top: -165px;
+    width: 90px;
+}
+
+.tip2 {
+    margin-left: 920px;
+    color: #ffffff;
+    width: 400px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.one {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.one.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.tipHeading3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.tip3 {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tipHeading4 {
+    margin-left: 900px;
+    margin-top: -165px;
+}
+
+.tip4 {
+    margin-left: 920px;
+    color: #ffffff;
+    width: 400px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.two {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.two.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.tipHeading5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.tip5 {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tipHeading6 {
+    margin-left: 900px;
+    margin-top: -165px;
+}
+
+.tip6 {
+    margin-left: 920px;
+    color: #ffffff;
+    width: 400px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.three {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.three.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.mapouter {
+    margin-top:100px;
+    margin-right:470px;
+}
+
+.mapApi {
+    margin-left: 530px;
+}
+
+#mapapi {
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.four {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.four.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
